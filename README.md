@@ -30,6 +30,11 @@ Download an amstrad rom and put it in the roms folder
 
 Run `Make` to build the capriceenv.dll file
 
-## Run
+In your python env run `pip install -r python/requirements.txt`
 
-An 
+## Run app
+
+See python/random_agent_demo.py
+
+It'll try to load harrier attack by default because its the greatest game.
+You can override this by passing your own rom into the CapriceGymEnv() call.
